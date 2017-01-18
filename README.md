@@ -24,7 +24,7 @@ The bootstrapper will back up all your existing files before it installs
 anything new, it'll also warn you if a dependency isn't met.
 
 ``` bash-session
-$ bash < <( curl https://raw.githubusercontent.com/gf3/dotfiles/master/bootstrap.sh )
+$ bash < <( curl https://raw.githubusercontent.com/toddsby/dotfiles/master/bootstrap.sh )
 ```
 
 Don't worry, all your old files will be backed up!
@@ -149,14 +149,14 @@ Shell
 =====
 
 Most of the shell junk is setup to work in both zsh and bash. Bash users should
-see [.bash_profile](https://github.com/gf3/dotfiles/blob/master/.bash_profile)
-and [.bash_prompt](https://github.com/gf3/dotfiles/blob/master/.bash_prompt).
+see [.bash_profile](https://github.com/toddsby/dotfiles/blob/master/.bash_profile)
+and [.bash_prompt](https://github.com/toddsby/dotfiles/blob/master/.bash_prompt).
 
 
 Aliases
 -------
 
-Check out [.aliases](https://github.com/gf3/dotfiles/blob/master/.aliases)
+Check out [.aliases](https://github.com/toddsby/dotfiles/blob/master/.aliases)
 
 
 Scripts
@@ -183,10 +183,10 @@ Git
 
 I've included some handy git script additions as well as configution changes.
 Have a look at
-[.gitconfig](https://github.com/gf3/dotfiles/blob/master/.gitconfig) to see
+[.gitconfig](https://github.com/toddsby/dotfiles/blob/master/.gitconfig) to see
 various aliases and settings.
 
-Additional scripts (see [.scripts](https://github.com/gf3/dotfiles/tree/master/.scripts/) directory for source):
+Additional scripts (see [.scripts](https://github.com/toddsby/dotfiles/tree/master/.scripts/) directory for source):
 
 * git-publish-branch
 * git-rank-contributors
